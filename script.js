@@ -46,6 +46,7 @@ function generatePixels(pixels) {
    link: https://github.com/tryber/sd-019-a-project-pixels-art/tree/thiago-william-project-pixels-art */
 
 const numberInput = document.getElementById('board-size');
+numberInput.value = '5';
 
 function inputTest() {
   if (numberInput.value < 5) {
